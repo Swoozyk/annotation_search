@@ -1,1 +1,1 @@
-web: gunicorn AnnotioSearch.AnnotioSearch.wsgi --log-file -
+gunicorn AnnotioSearch.wsgi --bind 0.0.0.0:$PORT
