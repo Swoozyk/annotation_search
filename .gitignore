@@ -1,0 +1,37 @@
+# Django Core
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+staticfiles/
+.env
+.env.prod
+.env.dev
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# OS generated
+.DS_Store
+.DS_Store?
+*.un~
+Thumbs.db
+
+# Database migrations (опционально)
+# */migrations/*
+# !*/migrations/__init__.py
