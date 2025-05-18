@@ -1,1 +1,0 @@
-web: gunicorn AnnotioSearch.wsgi --log-file -
